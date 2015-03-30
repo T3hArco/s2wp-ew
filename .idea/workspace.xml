@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29d8abac-76e2-4ac3-afa7-1095bac321a0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/overzicht.html" afterPath="$PROJECT_DIR$/overzicht.html" />
-    </list>
+    <list default="true" id="29d8abac-76e2-4ac3-afa7-1095bac321a0" name="Default" comment="" />
     <ignored path="Web Project 1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="overzicht.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/overzicht.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65400845" vertical-offset="0" max-vertical-offset="711">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.73839664" vertical-offset="0" max-vertical-offset="711">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -240,7 +238,7 @@
       <created>1427706276892</created>
       <option name="number" value="Default" />
       <updated>1427706276892</updated>
-      <workItem from="1427706277704" duration="677000" />
+      <workItem from="1427706277704" duration="537000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit voor merge">
       <created>1427706574580</created>
@@ -258,7 +256,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="677000" />
+    <option name="totallyTimeSpent" value="537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="6" />
@@ -320,8 +318,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/overzicht.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65400845" vertical-offset="0" max-vertical-offset="711">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.73839664" vertical-offset="0" max-vertical-offset="711">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
