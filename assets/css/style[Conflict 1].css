@@ -1,0 +1,384 @@
+/*font*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400);
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*general*/
+html, body {
+    min-height: 100%;
+}
+
+#background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    z-index: -1;
+    background-image: url("../img/jeans.png");
+}
+
+.container {
+    
+}
+
+.container #header {
+    background-color: #295B68;
+}
+
+    .container #header .beginner {
+        backgr
+    }
+
+    .container #header .intermediate {
+
+    }
+
+    .container #header .expert {
+
+    }
+
+.container .crumbs {
+    height: 30px;
+    line-height: 30px;
+    font-weight: 300; /* Thin */
+    background-color: #576566;
+    color: #FFFFFF;
+}
+
+.container .crumbs ul {
+    margin-left: 3em;
+}
+
+.container .crumbs ul li {
+    display: inline;
+    list-style: none;
+}
+
+    .container .crumbs ul li a {
+        color: #FFFFFF;
+    }
+
+.container .beginner {
+    background-color: #132D56;
+}
+
+.container .intermediate {
+
+}
+
+.container .expert {
+
+}
+
+.container #banner {
+    margin-top: 70px;
+
+    color: #576566;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 300; /* Thin */
+}
+
+
+/*knoppen algemene container*/
+.container #choices {
+    height: 125px;
+    width: 60%;
+    min-width: 850px;
+    margin: auto;
+    margin-top: 25px;
+
+    text-align: center;
+    -ms-text-justify: distribute-all-lines; /* hoera support */
+    text-justify: distribute-all-lines; /* Opera.. */
+}
+
+/* knoppen */
+.container #choices .choice {
+    width: 250px;
+    height: 320px;
+    vertical-align: top;
+    display: inline-block;
+    //*display: inline;
+
+.container #choices .choice .body {
+    font-weight: 300; /* Thin */
+    color: #FFFFFF;
+    /*height: 88%;*/
+
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+/*
+
+    transition: 0.5s;
+*/
+}
+
+/* onderste knop header */
+.container #choices .getstarted .square {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+
+    background-color: #324F4D;
+}
+
+.container #choices .getstarted .square:nth-child(2) {
+    position: relative;
+    float: right;
+}
+
+/*onderste knop*/
+.container #choices .getstarted {
+    margin-top: 6px;
+
+/*    width: 100%;*/
+    width: 820px;
+    height: 60px;
+    border: 1px solid #ADB5B7;
+    background-color: #576566;
+    color: #FFFFFF;
+
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 60px;
+    
+  display: inline-block;
+/*    transition: 0.5s;*/
+}
+
+.container #choices .getstarted:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.container #choices .choice .head {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    height: 35px;
+    line-height: 35px;
+}
+
+.container #choices .choice .body {
+    color: #FFFFFF;
+    line-height: 252px;
+}
+
+.container #choices .choice .beginner {
+    background-color: #132D56;
+    border-bottom: 1px solid #1C3D4C;
+}
+
+.container #choices .choice .beginner:nth-child(2) {
+    height: 250px;
+    background-color: #295B68;
+    border: 1px solid #1C3D4C;
+}
+
+.container #choices .choice .intermediate {
+    border-bottom: 1px solid #557218;
+    background-color: #5B771E;
+}
+
+.container #choices .choice .intermediate:nth-child(2) {
+    height: 250px;
+    background-color: #839D3E;
+    border: 1px solid #7B8F3B;
+}
+.container #choices .choice .expert {
+    background-color: #831415;
+}
+
+.container #choices .choice .expert:nth-child(2) {
+    height: 250px;
+    background-color: #A72D2E;
+    border: 1px solid #922A29;
+}
+
+
+.container #choices .choice .button {
+    color: #FFFFFF;
+    height: 35px;
+    width: 100%;
+
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+
+
+/* vergroot knop bij hoover */
+.container #choices .choice .button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+/* full screen weergave*/
+@media screen and (min-width: 1800px) {
+    .container #choices .getstarted {
+/*          width: 77%;*/
+    }
+    .container #banner {
+        margin-top: 90px;
+    }
+    .container #choices {
+          margin-top: 35px;
+    }
+
+}
+
+
+/* transities aan grote weergave*/
+@media screen and (min-width: 900px) {
+    .container #choices .choice {
+        transition: 0.5s;
+    }
+    .container #choices {
+        transition: 0.5s;
+    }
+}
+
+    
+/* compacte weergave */
+@media screen and (max-width: 944px) {
+    .container #choices .choice {
+        padding: 5px;
+    }
+
+    .container #choices {
+        min-width: 800px;
+    }
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+        /* Retina-specific stuff here */
+        
+            /*    knoppen*/
+    .container #choices {
+        min-width: 360px;
+    }
+
+    .container #choices .choice {
+        height: 230px;
+    }
+
+    .container #choices .choice .beginner:nth-child(2) {
+        height: 150px;
+    }
+
+    .container #choices .choice .intermediate:nth-child(2) {
+        height: 150px;
+    }
+
+    .container #choices .choice .expert:nth-child(2) {
+        height: 150px;
+    }
+
+    .container #choices .getstarted {
+        margin-top: -2px;
+        width: 100%;
+    }
+    
+}
+    
+    
+/* 1 kolom weergave */
+@media screen and (max-width: 799px) {
+
+    /*    knoppen*/
+    .container #choices {
+        min-width: 360px;
+    }
+
+    .container #choices .choice {
+        height: 230px;
+    }
+
+    .container #choices .choice .beginner:nth-child(2) {
+        height: 150px;
+    }
+
+    .container #choices .choice .intermediate:nth-child(2) {
+        height: 150px;
+    }
+
+    .container #choices .choice .expert:nth-child(2) {
+        height: 150px;
+    }
+
+    .container #choices .getstarted {
+        margin-top: -2px;
+        width: 100%;
+    }
+}
+
+
+/* 1 kolom gsm weergave */
+@media (-webkit-min-device-pixel-ratio: 2),only screen and (width: 1080px){
+    /* Retina-specific stuff here */
+    
+    .container #banner {
+        font-size:3.5em;
+    }
+    
+       /*    knoppen*/
+    .container #choices {
+        min-width: 500px;
+        margin-top: 0px;
+    }
+
+    .container #choices .choice {
+        height: 370px;
+         width: 450px;
+         font-size: 2.5em;
+    }
+    
+    .container #choices .choice .head {
+        line-height:60px;
+        height: 60px;
+    }
+    .container #choices .choice .button {
+        line-height:60px;
+        height: 60px;
+    }
+
+    .container #choices .choice .beginner:nth-child(2) {
+        height: 250px;
+    }
+
+    .container #choices .choice .intermediate:nth-child(2) {
+        height: 250px;
+    }
+
+    .container #choices .choice .expert:nth-child(2) {
+        height: 250px;
+    }
+
+    .container #choices .getstarted {
+        margin-top: 2px;
+        font-size: 2.5em;
+        width: 100%;
+    }
+    
+    
+}
+
+
+
+
+
+    
+/*    banner*/
+    .container #banner {
+    margin-top: 5px;
+
+}
